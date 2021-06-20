@@ -1,0 +1,46 @@
+The goal of this activity is to construct a simple e-commerce
+application where we will implement several links or routes that could be used to
+navigate to different sections. We will apply nested 404/component not found routes and URL queries.
+
+In this MyStore we will have a few items displayed.
+The store app should contain a header and the list of items that are up for sale.
+You can either delegate the display of each item to another component
+or write them into the Store component. The Store component has a couple of requirements:
+
+If no item id is specified, display all of the items using the minimized item display.
+If an item id is specified and the item exists, display the larger version of that item. You will need to research and use a parameterized URL for this.
+If an item id is specified and the item does not exist, display an item NotFound message.
+If a bad nested route is specified, display an item NotFound message.
+The following steps will help you to complete the activity:
+
+Create a new React application using the npx command.
+Inside App.js, include the necessary import statements: Router, Switch, Route, Link, and useRouteMatch.
+Create a basic functional component, MyStore, and add to it the inventory items, Shoes, Backpack, and TravelMug.
+Build a Store functional component and then, using useRouteMatch, build routes for each inventory item.
+Create a HomePage component and a navigation bar inside each component.
+Create nested routes for the Store component.
+Create a NotFound component in case the item was not found in the store.
+Create a functional Item component to show the details for each item.
+The goal of this activity is to construct a simple e-commerce
+application where we will implement several links or routes that could be used to
+navigate to different sections. We will apply nested 404/component not found routes and URL queries.
+
+In this MyStore we will have a few items displayed.
+The store app should contain a header and the list of items that are up for sale.
+You can either delegate the display of each item to another component
+or write them into the Store component. The Store component has a couple of requirements:
+
+If no item id is specified, display all of the items using the minimized item display.
+If an item id is specified and the item exists, display the larger version of that item. You will need to research and use a parameterized URL for this.
+If an item id is specified and the item does not exist, display an item NotFound message.
+If a bad nested route is specified, display an item NotFound message.
+The following steps will help you to complete the activity:
+
+Create a new React application using the npx command.
+Inside App.js, include the necessary import statements: Router, Switch, Route, Link, and useRouteMatch.
+Create a basic functional component, MyStore, and add to it the inventory items, Shoes, Backpack, and TravelMug.
+Build a Store functional component and then, using useRouteMatch, build routes for each inventory item.
+Create a HomePage component and a navigation bar inside each component.
+Create nested routes for the Store component.
+Create a NotFound component in case the item was not found in the store.
+Create a functional Item component to show the details for each item.
