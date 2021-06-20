@@ -1,0 +1,17 @@
+this.state =  {
+      playerScore : 0,
+      questions: [
+        {
+          question: "What animal barks?",
+          possibleAnswers: ["Dog", "Cat"],
+          rightAnswer: "Dog",
+          playerChoice: null
+        },
+        {
+          question: "What animal is more closely related to a tiger?",
+          possibleAnswers: ["Dog", "Cat"],
+          rightAnswer: "Cat",
+          playerChoice: null
+        }
+      ]
+    };
